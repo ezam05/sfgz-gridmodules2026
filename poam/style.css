@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Xmind:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  background-color:  #c1bdff;
+   font-family: "Xmind", sans-serif;
+  color: #216ed9;
+  margin: 0;
+  padding: 0;
+  font-size: 120px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.85;
+}
+
+
+.Your {
+    animation-name: YourAnimationName;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    align-items: center
+
+}
+
+.Like {
+    animation-name: LikeAnimationName;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    align-items: center;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+
+}
+
+
+
+@keyframes YourAnimationName {
+  0% {
+    transform: translate(-300vh, 10vh);
+    color: #216ed9;
+  }
+
+  40% {
+    transform: translate(5vh, 10vh);
+
+  }
+
+    60% {
+    transform: translate(5vh, 10vh);
+    color:black
+  }
+
+      100% {
+    transform: translate(300vh, 10vh);
+
+  }
+
+}
+
+
+@keyframes LikeAnimationName {
+  0% {
+    transform: translate(-300vh, 20vh);
+    color: #216ed9;
+  }
+
+  40% {
+    transform: translate(5vh, 20vh);
+
+  }
+
+    60% {
+    transform: translate(5vh, 20vh);
+    color:black
+  }
+
+      100% {
+    transform: translate(200vh, 20vh);
+
+  }
+
+}
+
+
+@keyframes backgroundAnimation {
+  0% {
+    color: #7cabed;
+  }
+
+
+      100% {
+    color: #a857db;
+  }
+
+}
